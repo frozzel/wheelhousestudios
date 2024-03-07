@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import hero1 from '../../images/slider/h1.jpg'
-import hero2 from '../../images/slider/h2.jpg'
-import hero3 from '../../images/slider/h3.jpg'
-import hero4 from '../../images/slider/h4.jpg'
+import hero1 from '../../images/slider/wed.jpg'
+import hero2 from '../../images/slider/wed2.jpg'
+import hero3 from '../../images/slider/wed3.jpg'
+import hero4 from '../../images/slider/wed4.jpg'
 
 
 var settings = {
