@@ -1,7 +1,7 @@
 {
   "name": "LoveLove",
   "version": "0.1.0",
-  "homepage": "http://lovelove-react.wpocean.com",
+  "homepage": "wheelhousestudios.org",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -41,7 +41,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm i --legacy-peer-deps, react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
