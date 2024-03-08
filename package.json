@@ -1,7 +1,7 @@
 {
   "name": "LoveLove",
   "version": "0.1.0",
-  "homepage": "https://coral-app-5f4tw.ondigitalocean.app/",
+ 
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -40,7 +40,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "npm install -g serve && serve -s build ",
     "build": "react-scripts build && npm install -g serve && serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
