@@ -1,7 +1,7 @@
 {
   "name": "LoveLove",
   "version": "0.1.0",
- 
+  "homepage": "https://coral-app-5f4tw.ondigitalocean.app/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
