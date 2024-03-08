@@ -21,11 +21,11 @@ const Footer = (props) => {
                             <ul>
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About</Link></li>
-                                <li><Link to="/home2">Wedding</Link></li>
                                 <li><Link to="/portfolio-grid">Portfolio</Link></li>
-                                <li><Link to="/blog">Blog</Link></li>
-                                <li><Link to="/shop">Shop</Link></li>
+                                <li><Link to="/pricing">Pricing</Link></li>
                                 <li><Link to="/contact">Contact</Link></li>
+                                <li><Link to="/rsvp-2">Collaborate</Link></li>
+                                
                             </ul>
                         </div>
                     </div>
