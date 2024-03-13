@@ -20,10 +20,10 @@ const AboutPage = () => {
             <About />
             {/* <ServiceSection /> */}
             {/* <FunFact /> */}
-            <ProjectSection prClass={'pt-120'} />
+            {/* <ProjectSection prClass={'pt-120'} /> */}
             <BannerSec />
             {/* <TeamSection /> */}
-            <PricingSection />
+            {/* <PricingSection /> */}
             {/* <PartnerSection pClass={'section-padding'}/> */}
             <Footer />
             <Scrollbar />

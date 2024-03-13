@@ -32,10 +32,11 @@ const Footer = (props) => {
                     <div className="col-12">
                         <div className="link-widget">
                             <ul>
-                                <li><Link onClick={ClickHandler} to="/"><i className="ti-twitter"></i></Link></li>
+                                {/* <li><Link onClick={ClickHandler} to="/"><i className="ti-twitter"></i></Link></li> */}
                                 <li><Link onClick={ClickHandler} to="/"><i className="ti-instagram"></i></Link></li>
+                                <li><Link onClick={ClickHandler} to="/"><i class="fa-brands fa-tiktok"></i></Link></li>
                                 <li><Link onClick={ClickHandler} to="/"><i className="ti-facebook"></i></Link></li>
-                                <li><Link onClick={ClickHandler} to="/"><i className="ti-linkedin"></i></Link></li>
+                                {/* <li><Link onClick={ClickHandler} to="/"><i className="ti-linkedin"></i></Link></li> */}
                                 {/* <li><Link onClick={ClickHandler} to="/"><i className="ti-skype"></i></Link></li> */}
                             </ul>
                         </div>

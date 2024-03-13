@@ -56,7 +56,7 @@ const HomePage = ({ addToCart, addToWishList }) => {
                 products={products}
             /> */}
             <RsvpSection rClass={'pt-0'}/>
-            <PricingSection pvClass={'pt-0'}/>
+            {/* <PricingSection pvClass={'pt-0'}/> */}
             {/* <BlogSection /> */}
             <Footer />
             <Scrollbar />
