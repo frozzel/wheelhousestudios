@@ -29,12 +29,12 @@ const About = (props) => {
                                     facilisis aliquam nunc ut nisl tincidunt nibh. Massa feugiat vitae habitant
                                     metus viverra. Praesent massa habitant sapien odio ac scelerisque praesent id.
                                 </p>
-                                <Link onClick={ClickHandler} to="/contact" className="theme-btn">APPOINMENT</Link>
+                                {/* <Link onClick={ClickHandler} to="/contact" className="theme-btn">APPOINMENT</Link> */}
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="wpo-about-wrap">
+                {/* <div className="wpo-about-wrap">
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-12 order-lg-1 order-2">
                             <div className="wpo-about-text">
@@ -56,7 +56,7 @@ const About = (props) => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )

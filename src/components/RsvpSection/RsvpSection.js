@@ -1,6 +1,8 @@
 import React from 'react'
 import cimg from '../../images/contact/img-1.jpg'
 import cimg2 from '../../images/contact/img-2.jpg'
+import side1 from '../../images/wht side 1.svg'
+import side2 from '../../images/wht side 2.png'
 import shape1 from '../../images/contact/1.png'
 import shape2 from '../../images/contact/2.png'
 import RSVPFrom from '../RSVPFrom/RSVPFrom'
@@ -26,10 +28,10 @@ const RsvpSection = (props) => {
                                 <RSVPFrom/>
                             </div>
                             <div className="vector-1">
-                                <img src={shape1} alt=""/>
+                                <img src={side1} alt=""/>
                             </div>
                             <div className="vector-2">
-                                <img src={shape2} alt=""/>
+                                <img src={side2} alt=""/>
                             </div>
                         </div>
                     </div>
