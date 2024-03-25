@@ -5,17 +5,6 @@ import HoneyBookWidget from '../HoneyBookWidget/HoneyBookWedget';
 
 
 const ContactForm = () => {
-    const [refresh, setRefresh] = useState(false);
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
-
-    useEffect(() => {
-        if (process.env.NODE_ENV === 'production' && !refresh) {
-            window.location.reload();
-            setRefresh(true);
-        }
-    }, [refresh]);
 
     // const [forms, setForms] = useState({
     //     name: '',

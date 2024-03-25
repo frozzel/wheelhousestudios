@@ -14,13 +14,13 @@ const RsvpPage2 = () => {
         window.scrollTo(0, 0);
     }, []);
 
-    useEffect(() => {
-        if (process.env.NODE_ENV === 'production' && !refresh) {
-            window.location.reload();
-            setRefresh(true);
-        }
-    }, [refresh]);
-    
+    // useEffect(() => {
+    //     if (process.env.NODE_ENV === 'production' && !refresh) {
+    //         window.location.reload();
+    //         setRefresh(true);
+    //     }
+    // }, [refresh]);
+
     return (
         <Fragment>
             <Navbar />
