@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { connect } from "react-redux";
 import { addToCart, addToWishList } from "../../store/actions/action";
 import api from "../../api";
@@ -18,11 +18,13 @@ import RsvpSection from '../../components/RsvpSection/RsvpSection';
 import PricingSection from '../../components/PricingSection/PricingSection';
 import Footer from '../../components/footer/Footer';
 import BlogSection from '../../components/BlogSection/BlogSection';
+import { setRef } from '@material-ui/core';
 
 
 
 
 const HomePage = ({ addToCart, addToWishList }) => {
+    const [refresh, setRefresh] = useState(false);
 
     const productsArray = api();
 
@@ -35,6 +37,17 @@ const HomePage = ({ addToCart, addToWishList }) => {
     };
 
     const products = productsArray
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    useEffect(() => {
+        if (process.env.NODE_ENV === 'production' && !refresh) {
+            window.location.reload();
+            setRefresh(true);
+        }
+    }, [refresh]);
 
     return (
         <Fragment>

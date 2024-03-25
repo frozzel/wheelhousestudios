@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import PageTitle from '../../components/pagetitle/PageTitle';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/footer/Footer'
@@ -8,6 +8,10 @@ import PartnerSection from '../../components/PartnerSection';
 
 
 const PricingPage =() => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return(
         <Fragment>
             <Navbar/>

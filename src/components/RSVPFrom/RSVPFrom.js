@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 // import SimpleReactValidator from 'simple-react-validator';
 // import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import HoneyBookWidget from '../HoneyBookWidget/HoneyBookWedget';
 // import { Form } from 'react-router-dom';
 
 
@@ -46,11 +47,8 @@ const RSVPFrom = () => {
 
     return (<>
    
-  
-            <div className="hb-p-63c87e713ebfde0006dc9ba7-2"></div>
-            <img height="1" width="1" style={{display:"none"}} src="https://www.honeybook.com/p.png?pid=63c87e713ebfde0006dc9ba7"/>
-
-   
+            <HoneyBookWidget/>
+      
     
     </>
         // <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active" >

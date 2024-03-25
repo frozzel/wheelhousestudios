@@ -1,8 +1,21 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import SimpleReactValidator from 'simple-react-validator';
+import HoneyBookWidget from '../HoneyBookWidget/HoneyBookWedget';
+
 
 
 const ContactForm = () => {
+    const [refresh, setRefresh] = useState(false);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+    useEffect(() => {
+        if (process.env.NODE_ENV === 'production' && !refresh) {
+            window.location.reload();
+            setRefresh(true);
+        }
+    }, [refresh]);
 
     // const [forms, setForms] = useState({
     //     name: '',
@@ -112,9 +125,9 @@ const ContactForm = () => {
         //         <button type="submit" className="theme-btn"> Submit Now</button>
         //     </div>
         // </form > */}
-
-        <div className="hb-p-63c87e713ebfde0006dc9ba7-1"></div>
-        <img height="1" width="1" style={{display: "none"}} src="https://www.honeybook.com/p.png?pid=63c87e713ebfde0006dc9ba7"/>
+        
+       
+        <HoneyBookWidget/>
        
 </>)
 }

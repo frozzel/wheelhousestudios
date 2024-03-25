@@ -1,4 +1,4 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useEffect} from 'react';
 import Navbar from '../../components/Navbar/Navbar'
 import PageTitle from '../../components/pagetitle/PageTitle'
 import Footer from '../../components/footer/Footer'
@@ -7,6 +7,10 @@ import PortfolioSection from '../../components/PortfolioSection';
 import PartnerSection from '../../components/PartnerSection';
 
 const PortfolioGridPage =() => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return(
         <Fragment>
             <Navbar/>
