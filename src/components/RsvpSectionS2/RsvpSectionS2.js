@@ -1,5 +1,5 @@
 import React from 'react'
-import cimg from '../../images/contact/img-3.jpg'
+import cimg from '../../images/contact/img-6.webp'
 import shape1 from '../../images/contact/1.png'
 import shape2 from '../../images/contact/2.png'
 import RSVPFrom from '../RSVPFrom/RSVPFrom'

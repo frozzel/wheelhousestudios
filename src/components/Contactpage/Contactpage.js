@@ -11,7 +11,7 @@ const Contactpage = () => {
                     <div className="col col-lg-10 offset-lg-1">
                         <div className="office-info">
                             <div className="row">
-                                {/* <div className="col col-xl-4 col-lg-6 col-md-6 col-12">
+                                <div className="col col-xl-4 col-lg-6 col-md-6 col-12">
                                     <div className="office-info-item">
                                         <div className="office-info-icon">
                                             <div className="icon">
@@ -19,11 +19,11 @@ const Contactpage = () => {
                                             </div>
                                         </div>
                                         <div className="office-info-text">
-                                            <h2>Address</h2>
-                                            <p>7 Green Lake Street Crawfordsville, IN 47933</p>
+                                            <h2>Coverage Area</h2>
+                                            <p>Atlanta and Surrounding Area</p>
                                         </div>
                                     </div>
-                                </div>  */}
+                                </div> 
                                 <div className="col col-xl-4 col-lg-6 col-md-6 col-12">
                                     <div className="office-info-item">
                                         <div className="office-info-icon ">
@@ -56,8 +56,7 @@ const Contactpage = () => {
                         </div>
                         <div className="wpo-contact-title">
                             <h2>Have Any Question?</h2>
-                            <p>It is a long established fact that a reader will be distracted
-                                content of a page when looking.</p>
+                            <p>Feel free to reach out with any inquiries or concerns!</p>
                         </div>
                         <div className="wpo-contact-form-area">
                             <ContactForm/>
