@@ -10,7 +10,7 @@ const VideoModal = () => {
 
   return (
     <React.Fragment>
-      <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="OUB6zKc-Tos" onClose={() => setOpen(false)} />
+      <ModalVideo channel='vimeo' autoplay isOpen={isOpen} videoId="837778849" onClose={() => setOpen(false)} />
 
       <div className="video-btn">
         <ul>
