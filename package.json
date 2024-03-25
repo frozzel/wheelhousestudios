@@ -1,7 +1,7 @@
 {
   "name": "LoveLove",
   "version": "0.1.0",
-  "homepage": "https://wheelhousestudios.org/",
+  "homepage": "wheelhousestudios.org",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
