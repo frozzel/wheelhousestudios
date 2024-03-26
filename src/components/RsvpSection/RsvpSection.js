@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import cimg from '../../images/contact/img-5.png'
 import cimg2 from '../../images/contact/img-5.png'
 import side1 from '../../images/contact/1.png'
@@ -9,6 +9,22 @@ import RSVPFrom from '../RSVPFrom/RSVPFrom'
 
 
 const RsvpSection = (props) => {
+    // useEffect(() => {
+    //     const script = document.createElement('script');
+    //     script.innerHTML = `
+    //       (function(h,b,s,n,i,p,e,t) {
+    //         h._HB_ = h._HB_ || {};h._HB_.pid = i;;;;
+    //         t=b.createElement(s);t.type="text/javascript";t.async=!0;t.src=n;
+    //         e=b.getElementsByTagName(s)[0];e.parentNode.insertBefore(t,e);
+    //       })(window,document,"script","https://widget.honeybook.com/assets_users_production/websiteplacements/placement-controller.min.js","63c87e713ebfde0006dc9ba7");
+    //     `;
+    //     document.body.appendChild(script);
+    
+    //     return () => {
+    //       document.body.removeChild(script);
+    //     };
+    //   }, []);
+
     return (
         <section className={`wpo-contact-section section-padding ${props.rClass}`}>
             <div className="container-fluid">
@@ -25,6 +41,10 @@ const RsvpSection = (props) => {
                                     <h4>Lets Meet</h4>
                                     <h2>Make An Inquiry</h2>
                                 </div>
+                               
+                                {/* <div className="hb-p-63c87e713ebfde0006dc9ba7-2"></div>
+                            <img height="1" width="1" style={{display: "none"}} src="https://www.honeybook.com/p.png?pid=63c87e713ebfde0006dc9ba7"/>
+                          */}
                                 <RSVPFrom/>
                             </div>
                             <div className="vector-1">
