@@ -198,7 +198,7 @@
 
         img{
             min-height: 600px;
-			object-fit: cover;
+			object-fit: fill;
 
 			@media(max-width:767px) {
 				min-height: 500px;
