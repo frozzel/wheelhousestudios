@@ -8538,8 +8538,8 @@ wpo-hero-slider-s4
 .wpo-contact-section-s2 .contact-bg img,
 .wpo-contact-section-s5 .contact-bg img {
   min-height: 600px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 @media (max-width: 767px) {
