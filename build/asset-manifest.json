@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7196d53.css",
-    "main.js": "/static/js/main.ac8bfbdb.js",
+    "main.css": "/static/css/main.4cfb6108.css",
+    "main.js": "/static/js/main.b8da8d39.js",
     "static/js/453.9517e46d.chunk.js": "/static/js/453.9517e46d.chunk.js",
+    "static/media/img-6.png": "/static/media/img-6.5abe46bc4ebd54cdda79.png",
     "static/media/img-5.png": "/static/media/img-5.be7af4a6beb9214c9a3d.png",
     "static/media/frame.png": "/static/media/frame.05aedc63b1af4b6cd085.png",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.ed6298903ae1554c7f3e.svg",
@@ -14,7 +15,6 @@
     "static/media/mask.jpg": "/static/media/mask.55edba9e03cd1a917a1b.jpg",
     "static/media/error-404.svg": "/static/media/error-404.d93bbe6cafad517c41302724fa815cf6.svg",
     "static/media/banner2.jpg": "/static/media/banner2.70469b5650249f71bab4.jpg",
-    "static/media/img-6.webp": "/static/media/img-6.0dd49f03bd53f2c9c29f.webp",
     "static/media/wed.jpg": "/static/media/wed.e7aeafdd91d32abd9dbb.jpg",
     "static/media/monallesiascript.woff": "/static/media/monallesiascript.872dd9aabd8f2b275967.woff",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f7f1738ca345185e0185.woff",
@@ -72,12 +72,12 @@
     "static/media/close.svg": "/static/media/close.d0690aa795f06bb679bfa90bd520bc26.svg",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.c7196d53.css.map": "/static/css/main.c7196d53.css.map",
-    "main.ac8bfbdb.js.map": "/static/js/main.ac8bfbdb.js.map",
+    "main.4cfb6108.css.map": "/static/css/main.4cfb6108.css.map",
+    "main.b8da8d39.js.map": "/static/js/main.b8da8d39.js.map",
     "453.9517e46d.chunk.js.map": "/static/js/453.9517e46d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7196d53.css",
-    "static/js/main.ac8bfbdb.js"
+    "static/css/main.4cfb6108.css",
+    "static/js/main.b8da8d39.js"
   ]
 }
