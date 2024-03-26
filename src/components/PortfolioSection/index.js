@@ -55,7 +55,7 @@ const PortfolioSection = (props) => {
                     <div className="row ">
                         <div className="col-lg-12">
                             <div className="portfolio-grids gallery-container clearfix ">
-                            <iframe frameborder='0' id='pictimeIntegration' src='https://quintonwheelerphotography.pic-time.com/client?headless=true' style={{width: "100%", height: "100%"}}></iframe>
+                            <iframe frameBorder='0' id='pictimeIntegration' src='https://quintonwheelerphotography.pic-time.com/client?headless=true' style={{width: "100%", height: "100%"}}></iframe>
                                 {/* <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 4 }}>
                                     <Masonry columnsCount={4} gutter="30px">
                                         {Portfolios.map((image, i) => (
