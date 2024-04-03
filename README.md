@@ -71,3 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 react-scripts build
 
 D4B0A5
+
+npm i --legacy-peer-deps

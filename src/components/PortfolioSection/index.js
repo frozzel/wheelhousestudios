@@ -10,6 +10,8 @@ import pImg8 from '../../images/portfolio/23.jpg'
 import ReactFancyBox from 'react-fancybox'
 import 'react-fancybox/lib/fancybox.css'
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry"
+import { Helmet } from 'react-helmet';
+
 
 
 const Portfolios = [
@@ -54,8 +56,11 @@ const PortfolioSection = (props) => {
                     <div className="gallery-filters "></div>
                     <div className="row ">
                         <div className="col-lg-12">
+                            <Helmet>
+                              <script src='https://pictimecloudaf-m.azureedge.net/pictures/scripts/compiled/artgalleryembed.js' />
+                            </Helmet>
                             <div className="portfolio-grids gallery-container clearfix ">
-                            <iframe frameBorder='0' id='pictimeIntegration' src='https://quintonwheelerphotography.pic-time.com/client?headless=true' style={{width: "100%", height: "100%"}}></iframe>
+                            <iframe  id='pictimeIntegration' src='https://quintonwheelerphotography.pic-time.com/client?headless=true' style={{width: "100%", height: "100%"}}></iframe>
                                 {/* <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 4 }}>
                                     <Masonry columnsCount={4} gutter="30px">
                                         {Portfolios.map((image, i) => (
