@@ -47,24 +47,11 @@ const ContactForm = () => {
     // };
 
     return (<>
-    {/* <ScriptLoader
-    id="63c87e713ebfde0006dc9ba7"
-    src="https://widget.honeybook.com/assets_users_production/websiteplacements/placement-controller.min.js"
-    onReady={() =>  console.log('ready!'
-    )}
-    onError={(error) => console.log('error!', error)}
-    fallback={(error) => (
-            <span>This has errored! {JSON.stringify(error)}</span>
-    )}
-    /> */}
-      
 
-   
-
-    <div className="hb-p-63c87e713ebfde0006dc9ba7-1"></div>
+    {/* <div className="hb-p-63c87e713ebfde0006dc9ba7-1"></div>
     <img height="1" width="1" style={{display: "none"}} src="https://www.honeybook.com/p.png?pid=63c87e713ebfde0006dc9ba7"/>
         
-    
+     */}
 
         {/* // <form onSubmit={(e) => submitHandler(e)} className="contact-validation-active" >
         //     <div className="row">

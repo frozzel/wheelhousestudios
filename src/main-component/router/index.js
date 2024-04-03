@@ -111,7 +111,7 @@ const AllRoute = () => {
           <Route path='/blog-left-sidebar' element={<BlogPageLeft/>} />
           <Route path='/blog-fullwidth' element={<BlogPageFullwidth/>} />
           <Route path='/contact' element={<ContactPage/>} />
-          {/* <Route path='/404' element={<ErrorPage/>} /> */}
+          <Route path='/404' element={<ErrorPage/>} />
           <Route path='login' element={<LoginPage />} />
           <Route path='register' element={<SignUpPage />} />
           <Route path='forgot-password' element={<ForgotPassword />} />
