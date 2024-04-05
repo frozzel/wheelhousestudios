@@ -1,5 +1,5 @@
 import React, {useRef, useState} from 'react'
-import cimg from '../../images/contact/img-6.png'
+import cimg from '../../images/contact/img-3.jpg'
 import shape1 from '../../images/contact/1.png'
 import shape2 from '../../images/contact/2.png'
 import RSVPFrom from '../RSVPFrom/RSVPFrom'
@@ -123,19 +123,18 @@ const RsvpSectionS2 = (props) => {
                                         </div>
                                         {/* <div className="col col-lg-12 col-12"> */}
                                             {/* <div className="form-field"> */}
-                                            <input className='form-control ' placeholder='Tell me more about this project '>
+                                            <div className='form-control ' placeholder=''>Tell me more about this project 
                                             
-                                            </input>
+                                            </div>
+                                            <div className="px-2 w-100">
                                                 <textarea
-                                                    
+                                                    className="w-100 m-auto border rounded-2 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent "
                                                     type="textarea"
                                                     name="message"
                                                     rows="4"
-                                                    
-                                                    className=""
                                                     placeholder=" " />
                                                     
-                                            {/* </div> */}
+                                            </div>
                                         {/* </div> */}
                                     </div>
                                     <div className="submit-area">
