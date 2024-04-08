@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import hero1 from '../../images/slider/wed.jpg'
-import hero2 from '../../images/slider/wed2.jpg'
-import hero3 from '../../images/slider/wed3.jpg'
-import hero4 from '../../images/slider/wed4.jpg'
+import hero1 from '../../images/slider/wed5.jpg'
+import hero2 from '../../images/slider/wed6.jpg'
+import hero3 from '../../images/slider/wed7.jpg'
+import hero4 from '../../images/slider/wed8.jpg'
 
 
 var settings = {
@@ -48,7 +48,7 @@ var settings = {
 const HeroArray = [
     {
         hImg: hero1,
-        title: 'Love',
+        title: 'Happy',
     },
     {
         hImg: hero2,
@@ -56,11 +56,12 @@ const HeroArray = [
     },
     {
         hImg: hero3,
-        title: 'Feelings',
+        // title: 'Feelings',
+        title: 'Joy',
     },
     {
         hImg: hero4,
-        title: 'Happy',
+        title: 'Love',
     },
 ]
 
