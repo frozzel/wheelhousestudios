@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ts1 from '../../images/testimonial/img-1.jpg'
-import ts2 from '../../images/testimonial/img-2.jpg'
-import ts3 from '../../images/testimonial/img-3.jpg'
+import ts1 from '../../images/testimonial/img-7.jpg'
+import ts2 from '../../images/testimonial/img-8.jpg'
+import ts3 from '../../images/testimonial/img-9.jpg'
 
 
 const testimonial = [
