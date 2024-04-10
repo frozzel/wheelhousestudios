@@ -24,10 +24,10 @@ const About = (props) => {
                             <div className="wpo-about-text">
                                 <h2>About Us</h2>
                                 <h4>Photographer & Videographer </h4>
-                                <p>Hi there, I'm Quinton Wheeler, a hybrid photographer / videographer who is passionate about capturing special moments on camera. Thanks so much for stopping by. My love for photo and video started when I was highschool having fun with a camera with my friends, and now has completely evolved into a business that I love. <br/><br/>
+                                <p>Hi there, I'm Quinton Wheeler, a hybrid photographer / videographer who is passionate about capturing special moments on camera. Thanks so much for stopping by. My love for photo and video started when I was highschool having fun with a camera with my friends, and now has completely evolved into a business that I love.</p>
                                 <p>When I'm not behind the lens, you can find me enjoying a game of baseball (go braves!), hiking the great outdoors, or enjoying the company of my fiancé and our fur babies. I have a passion for storytelling through photography and videography, and I can't wait to document your story in a way that reflects its true essence. Let’s chat and see how we can make your vision come to life!
                                 </p>   
-                                </p>
+                              
                                 <Link onClick={ClickHandler} to="/contact" className="theme-btn">CONTACT US</Link>
                                 {/* <Link onClick={ClickHandler} to="/contact" className="theme-btn">APPOINMENT</Link> */}
                             </div>
@@ -54,6 +54,9 @@ const About = (props) => {
                         </div>
                     </div>
                 </div> */}
+                <br/>
+                <br/>
+                <br/>
             </div>
         </section>
     )
