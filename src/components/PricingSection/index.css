@@ -1,0 +1,10 @@
+
+.wpo-pricing-item {
+    height: 100%; /* Add this line */
+    display: flex;
+    flex-direction: column;
+}
+
+.wpo-pricing-bottom {
+    margin-top: auto; /* Add this line */
+}
