@@ -35,10 +35,13 @@ const Header = (props) => {
                             <div className="col-lg-2 col-md-6 col-6 d-lg-block d-none">
                                 <div className="social-info">
                                     <ul>
+                                        <li><Link to="/"><i className="fa-brands fa-square-instagram"></i></Link></li>
+                                        <li><Link to="/"><i className="fa-brands fa-tiktok"></i></Link></li>
                                         <li><Link to="/"><i className="fi flaticon-facebook-app-symbol"></i></Link></li>
-                                        <li><Link to="/"><i className="fi flaticon-twitter"></i></Link></li>
-                                        <li><Link to="/"><i className="fi flaticon-linkedin"></i></Link></li>
-                                        <li><Link to="/"><i className="fi flaticon-instagram-1"></i></Link></li>
+                                        
+                                        
+                                        {/* <li><Link to="/"><i className="fi flaticon-linkedin"></i></Link></li> */}
+                                       
                                     </ul>
                                 </div>
                             </div>

@@ -1,0 +1,14 @@
+.nav-link{
+    color: #DFCAA0;
+}
+.nav-pills .nav-item .nav-link.active{
+    background-color: #DFCAA0;
+} 
+.nav-link:hover{
+    color: #c8b590;
+    
+}
+
+.nav-pills .nav-item .nav-link.active:hover{
+    background-color: #c8b590;
+} 

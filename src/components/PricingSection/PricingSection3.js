@@ -17,7 +17,7 @@ const Pricing = [
     },
     {
         pakage: 'Standard Package',
-        price: '4-500',
+        price: '500',
         subs: 'half day',
         l1: 'full resolution download on online gallery',
         l2: 'Ready within 1 week',
@@ -36,7 +36,7 @@ const ClickHandler = () => {
 const PricingSection3 = (props) => {
 
     return (
-        <section className={`wpo-pricing-section section-padding ${props.pvClass}`}>
+        <section className={`wpo-pricing-section section-padding pt-5 ${props.pvClass}`}>
             <div className="container">
                 <SectionTitle subTitle={'Choose Your'} MainTitle={'Photography Short Session'} desc={'Senior Photos, Maternity, Portrait Sessions'}/>
                 <div className="wpo-pricing-wrap">

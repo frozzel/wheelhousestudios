@@ -45,7 +45,7 @@ const ClickHandler = () => {
 const PricingSection2 = (props) => {
 
     return (
-        <section className={`wpo-pricing-section section-padding ${props.pvClass}`}>
+        <section className={`wpo-pricing-section section-padding pt-5 ${props.pvClass}`}>
             <div className="container">
                 <SectionTitle subTitle={'Choose Your'} MainTitle={'Wedding Cinematography'} />
                 <div className="wpo-pricing-wrap">
