@@ -35,9 +35,9 @@ const Header = (props) => {
                             <div className="col-lg-2 col-md-6 col-6 d-lg-block d-none">
                                 <div className="social-info">
                                     <ul>
-                                        <li><Link to="/"><i className="fa-brands fa-square-instagram"></i></Link></li>
-                                        <li><Link to="/"><i className="fa-brands fa-tiktok"></i></Link></li>
-                                        <li><Link to="/"><i className="fi flaticon-facebook-app-symbol"></i></Link></li>
+                                        <li><Link target="_blank" to="https://www.instagram.com/wheelhouse.studios?igsh=MXVqMDM4b3Z6NDlvYw%3D%3D&utm_source=qr"><i className="fa-brands fa-square-instagram"></i></Link></li>
+                                        <li><Link target="_blank" to="https://www.tiktok.com/@wheelhousestudios?_t=8lf8kDVcsNL&_r=1"><i className="fa-brands fa-tiktok"></i></Link></li>
+                                        <li><Link target="_blank" to="https://www.instagram.com/wheelhouse.studios?igsh=MXVqMDM4b3Z6NDlvYw%3D%3D&utm_source=qr"><i className="fi flaticon-facebook-app-symbol"></i></Link></li>
                                         
                                         
                                         {/* <li><Link to="/"><i className="fi flaticon-linkedin"></i></Link></li> */}

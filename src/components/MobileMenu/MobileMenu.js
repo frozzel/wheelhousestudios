@@ -183,6 +183,11 @@ const menus = [
         //     }
         // ]
     },
+    {
+        id: 88,
+        title: 'Pricing',
+        link: '/pricing',
+    },
 
     {
         id: 7,
@@ -212,6 +217,7 @@ const menus = [
             
         // ]
     },
+
 
     {
         id: 5,
@@ -250,11 +256,32 @@ const menus = [
         //     },
         // ]
     },
+
     {
-        id: 88,
-        title: 'Pricing',
-        link: '/pricing',
-    }
+        id: 7,
+        title: 'Social Media',
+        link: '/contact',
+        submenu: [
+            {
+                id: 76,
+                title: 'Facebook',
+                link: 'https://www.instagram.com/wheelhouse.studios?igsh=MXVqMDM4b3Z6NDlvYw%3D%3D&utm_source=qr'
+            },
+            {
+                id: 71,
+                title: 'Instagram',
+                link: 'https://www.instagram.com/wheelhouse.studios?igsh=MXVqMDM4b3Z6NDlvYw%3D%3D&utm_source=qr',
+            },
+            {
+                id: 75,
+                title: 'TikTok',
+                link: 'https://www.tiktok.com/@wheelhousestudios?_t=8lf8kDVcsNL&_r=1'
+            },
+
+
+            
+        ]
+    },
     
     
 ]
