@@ -11,6 +11,7 @@ import BannerSec from '../../components/BannerSec/BannerSec';
 import TeamSection from '../../components/TeamSection/TeamSection';
 import PricingSection from '../../components/PricingSection/PricingSection';
 import PartnerSection from '../../components/PartnerSection';
+import img from '../../images/page-title-about.jpg'
 
 const AboutPage = () => {
     useEffect(() => {
@@ -19,7 +20,7 @@ const AboutPage = () => {
     return (
         <Fragment>
             <Navbar />
-            <PageTitle pageTitle={'About Us'} pagesub={'About'} />
+            <PageTitle pageTitle={'About Us'} pagesub={'About'} img={img}/>
             <About />
             {/* <ServiceSection /> */}
             {/* <FunFact /> */}

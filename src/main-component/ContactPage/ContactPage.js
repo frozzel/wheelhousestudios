@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/footer/Footer'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import Contactpage from '../../components/Contactpage/Contactpage';
+import img from '../../images/page-title-colab.jpg'
 
 
 const ContactPage =() => {
@@ -15,7 +16,7 @@ const ContactPage =() => {
     return(
         <Fragment>
             <Navbar/>
-            <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'}/> 
+            <PageTitle pageTitle={'Contact Us'} pagesub={'Contact'} img={img}/> 
             <Contactpage/> 
             <Footer/>
             <Scrollbar/>
