@@ -9,6 +9,8 @@ import PricingSection2 from '../../components/PricingSection/PricingSection2';
 import PricingSection3 from '../../components/PricingSection/PricingSection3';
 import PricingSection4 from '../../components/PricingSection/PricingSection4';
 import './index.css'
+import img from '../../images/page-title-pricing.jpg'
+
 
 
 
@@ -20,7 +22,7 @@ const PricingPage =() => {
     return(
         <Fragment>
             <Navbar/>
-            <PageTitle pageTitle={'Pricing'} pagesub={'Pricing'}/> 
+            <PageTitle pageTitle={'Pricing'} pagesub={'Pricing'} img={img}/> 
             <div className="pt-5">
             <ul className="nav nav-pills d-flex justify-content-center" id="myTab" role="tablist">
                 <li className="nav-item d-flex mx-1 my-1" role="presentation">

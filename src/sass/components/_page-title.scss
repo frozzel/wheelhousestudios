@@ -1,7 +1,7 @@
 // wpo-page-title
 
 .wpo-page-title {
-	background: url(../../images/page-title.jpg) no-repeat center top / cover;
+	background: no-repeat center top / cover;
 	min-height: 360px;
 	position: relative;
 	display: flex;
@@ -20,7 +20,7 @@
 			font-weight: 400;
 			font-size: 40px;
 			line-height: 57px;
-			color: $dark-gray;
+			color: $white;
 			margin-bottom: 25px;
 
 			@media(max-width: 767px) {
@@ -37,7 +37,7 @@
 			li {
 				display: inline-block;
 				padding: 0px 15px;
-				color: $text-color;
+				color: $white;
 				position: relative;
 				font-size: 20px;
 
@@ -57,7 +57,7 @@
 					transform: translateY(-50%);
 					width: 5px;
 					height: 5px;
-					background: $text-color;
+					background: $white;
 					border-radius: 50%;
 				}
 
@@ -69,7 +69,7 @@
 				}
 
 				a {
-					color: $text-color;
+					color: $white;
 					font-size: 20px;
 					transition: all .3s;
 

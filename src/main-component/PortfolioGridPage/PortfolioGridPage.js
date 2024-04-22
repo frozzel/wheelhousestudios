@@ -5,6 +5,8 @@ import Footer from '../../components/footer/Footer'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import PortfolioSection from '../../components/PortfolioSection';
 import PartnerSection from '../../components/PartnerSection';
+import img from '../../images/page-title-portfolio.jpg'
+
 
 const PortfolioGridPage =() => {
 
@@ -14,7 +16,7 @@ const PortfolioGridPage =() => {
     return(
         <Fragment>
             <Navbar/>
-            <PageTitle pageTitle={'Portfolio Grid'} pagesub={'Portfolio'}/> 
+            <PageTitle pageTitle={'Portfolio'} pagesub={'Portfolio'} img={img}/> 
             <PortfolioSection pClass={'tb-padding'}/>
             <PartnerSection pClass={'pb-120'}/>
             <Footer/>
