@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ts1 from '../../images/testimonial/img-13.png'
 import ts2 from '../../images/testimonial/img-11.jpeg'
-import ts3 from '../../images/testimonial/img-9.jpg'
+import ts3 from '../../images/testimonial/img-14.jpeg'
 
 
 const testimonial = [
@@ -22,13 +22,13 @@ const testimonial = [
         Title: 'Veronica Cruz-Chambers',
         Date: "11.04.2023",
     },
-    // {
-    //     id: '01',
-    //     tImg: ts3,
-    //     Des: "Varius aenean fringilla consectetur adipiscing felis, lectus. Id eros, porta quam quis proin non vulputate lacinia imperdiet. Mus ut amet tortor iEros, sed at semper sed in tempor ultrices sed. Id sem nulla quisque vel duiscoue necrd.",
-    //     Title: 'Sarah & Daniel',
-    //     Date: "12.08.2022",
-    // }
+    {
+        id: '01',
+        tImg: ts3,
+        Des: "VI had never had to look for a photographer before, but I have heard horror stories about pricing and quality of photos. I knew Quinton would be an excellent choice simply because he has such an outstanding personality. He helped with where to take the photos, poses, and plenty of other things I didn't realize went into photography! Quinton turned some casual senior photos into something magical I can remember forever.",
+        Title: 'Sofia Frenzel',
+        Date: "10.27.2023",
+    }
 ]
 
 const Testimonial = () => {
