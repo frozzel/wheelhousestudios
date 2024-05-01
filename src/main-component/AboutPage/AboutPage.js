@@ -12,6 +12,7 @@ import TeamSection from '../../components/TeamSection/TeamSection';
 import PricingSection from '../../components/PricingSection/PricingSection';
 import PartnerSection from '../../components/PartnerSection';
 import img from '../../images/page-title-about.jpg'
+import RsvpSection from '../../components/RsvpSection/RsvpSection';
 
 const AboutPage = () => {
     useEffect(() => {
@@ -29,6 +30,9 @@ const AboutPage = () => {
             {/* <TeamSection /> */}
             {/* <PricingSection /> */}
             {/* <PartnerSection pClass={'section-padding'}/> */}
+            <div className="mt-5">
+            <RsvpSection rClass={'pt-0'}/>
+            </div>``
             <Footer />
             <Scrollbar />
         </Fragment>

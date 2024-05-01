@@ -6,6 +6,7 @@ import Scrollbar from '../../components/scrollbar/scrollbar'
 import PortfolioSection from '../../components/PortfolioSection';
 import PartnerSection from '../../components/PartnerSection';
 import img from '../../images/page-title-portfolio.jpg'
+import RsvpSection from '../../components/RsvpSection/RsvpSection';
 
 
 const PortfolioGridPage =() => {
@@ -19,6 +20,7 @@ const PortfolioGridPage =() => {
             <PageTitle pageTitle={'Portfolio'} pagesub={'Portfolio'} img={img}/> 
             <PortfolioSection pClass={'tb-padding'}/>
             <PartnerSection pClass={'pb-120'}/>
+            <RsvpSection rClass={'pt-0'}/>
             <Footer/>
             <Scrollbar/>
         </Fragment>

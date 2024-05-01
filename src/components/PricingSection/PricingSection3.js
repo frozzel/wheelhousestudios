@@ -5,8 +5,18 @@ import SectionTitle from '../SectionTitle'
 import './index.css'
 
 const Pricing = [
-   {
+    {
         pakage: 'Basic Package',
+        price: '125',
+        subs: '30-60 minutes',
+        l1: 'full resolution download on online gallery',
+        l2: 'Ready within 1 week',
+        // l3: '4k download',
+        // l4: 'Manicure & Pedicure',
+        // l5: 'Full body Polish'
+    },
+   {
+        pakage: 'Standard Package',
         price: '200',
         subs: '1-2 hours',
         l1: 'full resolution download on online gallery',
@@ -16,7 +26,7 @@ const Pricing = [
         // l5: 'Full body Polish'
     },
     {
-        pakage: 'Standard Package',
+        pakage: 'Luxury Package',
         price: '500',
         subs: 'half day',
         l1: 'full resolution download on online gallery',
