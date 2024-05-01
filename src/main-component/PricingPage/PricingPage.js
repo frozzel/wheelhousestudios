@@ -10,6 +10,7 @@ import PricingSection3 from '../../components/PricingSection/PricingSection3';
 import PricingSection4 from '../../components/PricingSection/PricingSection4';
 import './index.css'
 import img from '../../images/page-title-pricing.jpg'
+import RsvpSection from '../../components/RsvpSection/RsvpSection';
 
 
 
@@ -49,6 +50,9 @@ const PricingPage =() => {
             {/* <PricingSection2/>
             <PricingSection3/> */}
             {/* <PartnerSection pClass={'section-padding'}/> */}
+            <div className="mt-5">
+            <RsvpSection rClass={'pt-0'}/>
+            </div>
             <Footer/>
             <Scrollbar/>
         </Fragment>
