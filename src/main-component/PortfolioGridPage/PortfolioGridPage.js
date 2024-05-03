@@ -5,7 +5,7 @@ import Footer from '../../components/footer/Footer'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import PortfolioSection from '../../components/PortfolioSection';
 import PartnerSection from '../../components/PartnerSection';
-import img from '../../images/page-title-portfolio.jpg'
+import img from '../../images/page-title-portfolio2.jpg'
 import RsvpSection from '../../components/RsvpSection/RsvpSection';
 
 
