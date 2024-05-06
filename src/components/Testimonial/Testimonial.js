@@ -5,9 +5,19 @@ import "slick-carousel/slick/slick-theme.css";
 import ts1 from '../../images/testimonial/img-13.png'
 import ts2 from '../../images/testimonial/img-11.jpeg'
 import ts3 from '../../images/testimonial/img-14.jpeg'
+import ts4 from '../../images/testimonial/img-15.jpg'
+import ts5 from '../../images/testimonial/img-16.jpg'
 
 
 const testimonial = [
+    {
+        id: '01',
+        tImg: ts4,
+        Des: "When booking a wedding, we had a budget in mind. Quinton was in our budget and was top notch. We are so grateful that he captured our magical day. He was there before I showed up to the venue to capture detail shots. When I arrived he was attentive, professional, and so fun and comfortable to work with. As a bride he made me feel like a princess and he was a great hype man on the side! Quinton is so talented. I HIGHLY recommend him. Words don’t express how fabulous it was to work with him. ",
+        Title: 'Cristiana Larev',
+        Date: "03.02.2024",
+        event: "Wedding"
+    },
     {
         id: '01',
         tImg: ts1,
@@ -22,6 +32,14 @@ const testimonial = [
         Des: "I am a very reserved person and I don’t like my picture being taken at all. However, Quinton’s personality put me at ease and I loved that he had so many different ideas! The wedding day was so stressful and hectic and I appreciate Quinton for making a schedule to make the photography portion as smooth as possible. Everyone from the wedding loved his photos. They are AMAZING. Everyone also loved how friendly and bubbly he was. To this day we still hear about how much people loved the photos or just loved him in general. So yes, we would 100% recommend Quinton to anyone.",
         Title: 'Veronica Cruz-Chambers',
         Date: "11.04.2023",
+        event: "Wedding"
+    },
+    {
+        id: '01',
+        tImg: ts5,
+        Des: "It’s really hard to find what you want within your budget, and Quinton is very well priced and provides excellent communication throughout the planning process as well as a beautiful video for us to enjoy for many years! Quinton’s eye for videography is an obvious talent, and he captured our wedding day with ease and creativity! He truly let my husband and I’s personalities shine through the lens. He is so much fun to work with and makes you feel comfortable to just have fun on your big day! His energy and passion for what he does makes him an amazing videographer!  ",
+        Title: 'Sarah Troche',
+        Date: "10.21.2023",
         event: "Wedding"
     },
     {
@@ -46,7 +64,7 @@ const Testimonial = () => {
                 <div className="wpo-testimonial-wrap">
                     <div className="row align-items-center">
                         <div className="col col-lg-7">
-                            <Slider asNavFor={nav2} ref={(slider1) => setNav1(slider1)} dots={true} arrows={false}>
+                            <Slider asNavFor={nav2} ref={(slider1) => setNav1(slider1)} dots={true} arrows={true}>
                                 {
                                     testimonial.map((tesmnl, tsm) => (
                                         <div className="testimonial-img" key={tsm}>
