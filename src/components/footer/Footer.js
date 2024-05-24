@@ -44,6 +44,7 @@ const Footer = (props) => {
                     <div className="col-12">
                         <div className="copyright">
                             <p>© Copyright 2024 | <Link to="/">Wheel House Studios</Link> | All right reserved.</p>
+                            <small> <small><small><small>Designed by <Link className="text-secondary" to="https://cyrusgroupinnovations.com">Cyrus Group Innovations</Link></small></small></small></small>
                         </div>
                     </div>
                 </div>
