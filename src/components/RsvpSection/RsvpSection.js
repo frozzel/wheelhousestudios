@@ -16,7 +16,7 @@ const RsvpSection = (props) => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_br2lcnr', 'template_z8js5gs', form.current, '_esjagXPbaFFWegfH')
+        emailjs.sendForm('service_glqd1k9', 'template_z8js5gs', form.current, '_esjagXPbaFFWegfH')
           .then(() => {
               alert('Message sent successfully!');
               window.location.reload();
