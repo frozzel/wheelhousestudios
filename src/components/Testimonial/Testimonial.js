@@ -59,7 +59,7 @@ const Testimonial = () => {
 
 
     return (
-        <section className="wpo-testimonial-section section-padding">
+        <section className="wpo-testimonial-section section-padding ">
             <div className="container">
                 <div className="wpo-testimonial-wrap">
                     <div className="row align-items-center">
