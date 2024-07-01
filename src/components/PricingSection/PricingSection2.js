@@ -8,32 +8,32 @@ const Pricing = [
    {
         pakage: 'Basic Package',
         price: '1500',
-        subs: '6 hours',
+        subs: '8 hours',
         l1: 'Video ready within 6-8 weeks',
         l2: '3 to 5 minute video',
         l3: '4k download',
-        // l4: 'Manicure & Pedicure',
-        // l5: 'Full body Polish'
+        l4: 'Sales Tax Not Included',
+        l5: '$2 per mile after 80 miles'
     },
     {
         pakage: 'Standard Package',
         price: '2000',
-        subs: '8 hours',
+        subs: '8-10 hours',
         l1: 'Video ready within 6-8 weeks',
         l2: '4 to 6 minute video',
         l3: '4k download',
         l4: 'Drone Footage',
-        // l5: 'Full body Polish'
+        l5: '$2 per mile after 80 miles / Sales Tax Not Included'
     },
     {
         pakage: 'Luxury Package',
         price: '2500',
-        subs: '10 hours',
+        subs: 'Full Day',
         l1: 'Video ready within 6-8 weeks',
         l2: '5 to 7 minute video',
-        l3: '4k download',
+        l3: '4k download / Wedding Day Audio',
         l4: 'Drone Footage',
-        l5: 'Wedding Day Audio'
+        l5: 'Travel Included / Sales Taxes Included'
     },
 ]
 

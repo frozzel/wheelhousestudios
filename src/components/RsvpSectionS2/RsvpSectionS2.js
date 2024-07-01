@@ -1,11 +1,12 @@
 import React, {useRef, useState} from 'react'
-import cimg from '../../images/contact/img-3.jpg'
+import cimg from '../../images/page-title-pricing.jpg'
 import shape1 from '../../images/contact/1.png'
 import shape2 from '../../images/contact/2.png'
-import RSVPFrom from '../RSVPFrom/RSVPFrom'
+// import RSVPFrom from '../RSVPFrom/RSVPFrom'
 import emailjs from '@emailjs/browser'
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+
 
 
 
@@ -26,7 +27,10 @@ const RsvpSectionS2 = (props) => {
       };
     return (
         <section className="wpo-contact-section-s2 section-padding">
-            <div className="contact-bg"><img src={cimg} alt=""/></div>
+            <div className="contact-bg">
+                
+                <img src={cimg} alt=""/>
+                </div>
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col col-xl-12 col-12">
@@ -150,8 +154,11 @@ const RsvpSectionS2 = (props) => {
                             <div className="vector-2">
                                 <img src={shape2} alt="" />
                             </div>
+                            
                         </div>
+                       
                     </div>
+             
                 </div>
             </div>
         </section>
