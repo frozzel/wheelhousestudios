@@ -32,7 +32,7 @@ const RsvpSection = (props) => {
                 <div className="row align-items-center">
                     <div className="col col-xl-3 col-lg-3 col-md-3 col-12">
                         <div className="contact-img">
-                            <img src={cimg} alt=""/>
+                            {/* <img src={cimg} alt=""/> */}
                         </div>
                     </div>
                     <div className="col col-xl-6 col-lg-6 col-md-6 col-12">
@@ -163,7 +163,7 @@ const RsvpSection = (props) => {
                     </div>
                     <div className="col col-xl-3 col-lg-3 col-md-3 col-12">
                         <div className="contact-img">
-                            <img src={cimg2} alt=""/>
+                            {/* <img src={cimg2} alt=""/> */}
                         </div>
                     </div>
                 </div>

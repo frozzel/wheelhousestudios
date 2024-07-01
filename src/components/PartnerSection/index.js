@@ -94,6 +94,10 @@ const PartnerSection = (props) => {
 
         <section className={`wpo-partners-section ${props.pClass}`}>
             <div className="container">
+            <div className="wpo-section-title">
+                    {/* <h4>Sweet Memories</h4> */}
+                    <h2>Videography</h2>
+                </div>
                 <div className="row">
                     <div className="col col-xs-12">
                         <div className="partner-grids partners-slider">

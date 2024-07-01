@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/footer/Footer'
 import Scrollbar from '../../components/scrollbar/scrollbar'
 import PricingSection from '../../components/PricingSection/PricingSection';
-import PartnerSection from '../../components/PartnerSection';
+// import PartnerSection from '../../components/PartnerSection';
 import PricingSection2 from '../../components/PricingSection/PricingSection2';
 import PricingSection3 from '../../components/PricingSection/PricingSection3';
 import PricingSection4 from '../../components/PricingSection/PricingSection4';

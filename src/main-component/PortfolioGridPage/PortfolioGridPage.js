@@ -19,8 +19,9 @@ const PortfolioGridPage =() => {
             <Navbar/>
             <PageTitle pageTitle={'Portfolio'} pagesub={'Portfolio'} img={img}/> 
             <PortfolioSection pClass={'tb-padding'}/>
-            <PartnerSection pClass={'pb-120'}/>
             <RsvpSection rClass={'pt-0'}/>
+            <PartnerSection pClass={'pb-120'}/>
+            
             <Footer/>
             <Scrollbar/>
         </Fragment>

@@ -8,32 +8,32 @@ const Pricing = [
     {
         pakage: 'Basic Package',
         price: '1500',
-        subs: '6 hours',
+        subs: '8 hours',
         l1: 'Photos ready within 6-8 weeks online gallery',
-        l2: '',
-        l3: '',
-        l4: '',
+        l2: 'Sales Tax Not Included',
+        l3: '80 miles travel included ',
+        l4: '$2 per mile after 80 miles',
         l5: ''
     },
     {
         pakage: 'Standard Package',
         price: '2000',
-        subs: '6-8 hours',
+        subs: '8-10 hours',
         l1: 'Photos ready within 6-8 weeks online gallery',
         l2: 'Engagement session',
-        // l3: 'Amazing meal & breakfast',
-        // l4: 'Manicure & Pedicure',
-        // l5: 'Full body Polish'
+        l3: 'Second Photographer',
+        l4: 'Sales Tax Not Included',
+        l5: '$2 per mile after 80 miles'
     },
     {
         pakage: 'Luxury Package',
         price: '2500',
-        subs: '10 hours',
+        subs: 'Full Day',
         l1: 'Photos ready within 6-8 weeks online gallery',
         l2: 'Second Photographer',
         l3: 'Engagement session',
-        // l4: 'Manicure & Pedicure',
-        // l5: 'Full body Polish'
+        l4: 'Travel Included',
+        l5: 'Sales Taxes Included'
     },
   
 ]

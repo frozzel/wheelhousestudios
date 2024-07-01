@@ -35,7 +35,6 @@ const Footer = (props) => {
                                 {/* <li><Link onClick={ClickHandler} to="/"><i className="ti-twitter"></i></Link></li> */}
                                 <li><Link onClick={ClickHandler} target="_blank" to="https://www.instagram.com/wheelhouse.studios?igsh=MXVqMDM4b3Z6NDlvYw%3D%3D&utm_source=qr"><i className="fa-brands fa-square-instagram"></i></Link></li>
                                 <li><Link onClick={ClickHandler} target="_blank" to="https://www.tiktok.com/@wheelhousestudios?_t=8lf8kDVcsNL&_r=1"><i className="fa-brands fa-tiktok"></i></Link></li>
-                                <li><Link onClick={ClickHandler} target="_blank" to="https://www.instagram.com/wheelhouse.studios?igsh=MXVqMDM4b3Z6NDlvYw%3D%3D&utm_source=qr"><i className="ti-facebook"></i></Link></li>
                                 {/* <li><Link onClick={ClickHandler} to="/"><i className="ti-linkedin"></i></Link></li> */}
                                 {/* <li><Link onClick={ClickHandler} to="/"><i className="ti-skype"></i></Link></li> */}
                             </ul>

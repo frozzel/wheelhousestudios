@@ -48,8 +48,8 @@ const PortfolioSection = (props) => {
         <section className={`wpo-portfolio-section-s2 section-padding ${props.prClass}`} id="gallery">
             <div className="container">
                 <div className="wpo-section-title">
-                    <h4>Sweet Memories</h4>
-                    <h2>Our Captured Moments</h2>
+                    {/* <h4>Sweet Memories</h4> */}
+                    <h2>Photography</h2>
                 </div>
                 
                 <div className="sortable-gallery ">
