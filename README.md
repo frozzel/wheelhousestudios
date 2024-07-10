@@ -1,77 +1,67 @@
-# Getting Started with Create React App
+<div>
+<a href=""><img src="https://github.com/frozzel/wheelhousestudios/blob/c6950b4ca6faa7d6f6535cb7231343b3118013af/src/images/logo2.svg" align="center" height="" width="100%" ></a></div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+   # Wheel House Studios   
+   [![Github](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/frozzel/wheelhousestudios) [![DIGITALOCEAN](https://img.shields.io/badge/DigitalOcean-0080FF.svg?style=for-the-badge&logo=DigitalOcean&logoColor=white)](https://wheelhousestudios.org/)
+ 
+ ---
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  ## Description
+Welcome to the GitHub repository for Wheel House Studios, a premier wedding photography service dedicated to capturing your special moments with elegance and creativity. Our goal is to provide timeless, beautiful images that tell the story of your love and celebration.
 
-### `npm test`
+## About Us
+Wheel House Studios specializes in wedding photography, offering a range of services designed to fit your unique vision. Our team of skilled photographers is passionate about creating stunning visual narratives that you will cherish for a lifetime.
+ 
+## Features
+- Professional Photography: Our photographers use state-of-the-art equipment and techniques to ensure the highest quality images.
+- Custom Packages: We offer a variety of packages tailored to meet your specific needs, whether it's a small intimate ceremony or a grand celebration.
+- Editing Services: Our post-production process includes meticulous editing to enhance the beauty of each photograph.
+- Online Gallery: Clients receive access to a private online gallery for easy viewing, sharing, and ordering prints.
+- Flexible Scheduling: We work with you to accommodate your schedule and ensure that no moment is missed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Portfolio
 
-### `npm run build`
+Visit our [website](http://wheelhousestudios.org) to see examples of our work and get inspired by the beautiful weddings we have had the honor of photographing.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contact Us
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Interested in learning more about our services or booking a session? Get in touch with us through our [contact page](https://wheelhousestudios.org/contact) or email us at [Email](Quinton@WheelHouseStudios.org).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Screen Shots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screen Shots](https://github.com/frozzel/dollar4scholar-client/blob/4cbaa00f9a5b4302c6f56005e6e9e612ccc5a00f/src/assets/img/screenshots/sc-0.png)
+![Screen Shots2](https://github.com/frozzel/dollar4scholar-client/blob/4cbaa00f9a5b4302c6f56005e6e9e612ccc5a00f/src/assets/img/screenshots/sc-1.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  
+  ## Contributors 
 
-## Learn More
+  Created by: [@frozzel](https://github.com/frozzel/dollar4scholar-client)
+  
+  Please contact me with questions at: frozzel@me.com
+  
+  [![Github license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+## Deployment Instructions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Based on create-react-app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To get started follow this steps:
 
-### Code Splitting
+- Install Node and npm. (to add new dependency's delete modules add new npm manually in package json then npm i)
+- Download and open project.
+- Install packages: npm i --legacy-peer-deps, npm install --legacy-peer-deps or yarn install --legacy-peer-deps.
+- Start project locally: npm start or yarn start (running on port 3036).
+- Make necessary changes.
+- Build app for production: npm run build or yarn build. (site must be built pre deploy for CRA to work in module)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-react-scripts build
-
-D4B0A5
-
-npm i --legacy-peer-deps
+## Color Pallet
 
 https://www.color-hex.com/color/dfcaa0
