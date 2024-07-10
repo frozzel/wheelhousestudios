@@ -29,13 +29,13 @@ Visit our [website](http://wheelhousestudios.org) to see examples of our work an
 
 ## Contact Us
 
-Interested in learning more about our services or booking a session? Get in touch with us through our [contact page](https://wheelhousestudios.org/contact) or email us at [Email](Quinton@WheelHouseStudios.org).
+Interested in learning more about our services or booking a session? Get in touch with us through our [contact page](https://wheelhousestudios.org/contact) or email us at [Email](mailto:Quinton@WheelHouseStudios.org).
 
 
 ## Screen Shots
 
-![Screen Shots](https://github.com/frozzel/dollar4scholar-client/blob/4cbaa00f9a5b4302c6f56005e6e9e612ccc5a00f/src/assets/img/screenshots/sc-0.png)
-![Screen Shots2](https://github.com/frozzel/dollar4scholar-client/blob/4cbaa00f9a5b4302c6f56005e6e9e612ccc5a00f/src/assets/img/screenshots/sc-1.png)
+![Screen Shots](https://github.com/frozzel/wheelhousestudios/blob/fe180da8cdb694a044e93f2f792a9b79289466fc/src/images/Screenshot1.png)
+![Screen Shots2](https://github.com/frozzel/wheelhousestudios/blob/fe180da8cdb694a044e93f2f792a9b79289466fc/src/images/Screenshot2.png)
 
 
 ---
@@ -43,7 +43,7 @@ Interested in learning more about our services or booking a session? Get in touc
   
   ## Contributors 
 
-  Created by: [@frozzel](https://github.com/frozzel/dollar4scholar-client)
+  Created by: [@frozzel](https://github.com/frozzel)
   
   Please contact me with questions at: frozzel@me.com
   
