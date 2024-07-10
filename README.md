@@ -15,6 +15,14 @@ Welcome to the GitHub repository for Wheel House Studios, a premier wedding phot
 
 ## About Us
 Wheel House Studios specializes in wedding photography, offering a range of services designed to fit your unique vision. Our team of skilled photographers is passionate about creating stunning visual narratives that you will cherish for a lifetime.
+
+## Screen Shots
+
+![Screen Shots](https://github.com/frozzel/wheelhousestudios/blob/fe180da8cdb694a044e93f2f792a9b79289466fc/src/images/Screenshot1.png)
+![Screen Shots2](https://github.com/frozzel/wheelhousestudios/blob/fe180da8cdb694a044e93f2f792a9b79289466fc/src/images/Screenshot2.png)
+
+
+---
  
 ## Features
 - Professional Photography: Our photographers use state-of-the-art equipment and techniques to ensure the highest quality images.
@@ -31,14 +39,6 @@ Visit our [website](http://wheelhousestudios.org) to see examples of our work an
 
 Interested in learning more about our services or booking a session? Get in touch with us through our [contact page](https://wheelhousestudios.org/contact) or email us at [Email](mailto:Quinton@WheelHouseStudios.org).
 
-
-## Screen Shots
-
-![Screen Shots](https://github.com/frozzel/wheelhousestudios/blob/fe180da8cdb694a044e93f2f792a9b79289466fc/src/images/Screenshot1.png)
-![Screen Shots2](https://github.com/frozzel/wheelhousestudios/blob/fe180da8cdb694a044e93f2f792a9b79289466fc/src/images/Screenshot2.png)
-
-
----
 
   
   ## Contributors 
